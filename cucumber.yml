@@ -1,0 +1,18 @@
+# Plataform
+default: -p html_report -p json_report -p chrome
+api_log: -p http_log -p api
+api: ENVIRONMENT_TYPE_API=api_log
+
+# Reports
+<%time = Time.now.strftime('%d%m%Y_%H%M%S').to_s%>
+json_report: --format pretty --format json --out=report/rubocop.html.json
+html_report_api: --format pretty --format html --out=report/report_api_<%=time%>.html
+html_report: --format pretty --format html --out=report/report_<%=time%>.html
+
+# Logs
+http_log: HTTP_LOG=true
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+internet_explorer: BROWSER=internet_explorer

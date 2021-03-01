@@ -1,0 +1,14 @@
+---
+user_login:
+  email: leonardo.tramontina
+  password: testeinmetrics
+username_invalid:
+  email: leoanrdo.kunz
+  password: testeinmetrics
+password_invalid:
+  email: leonardo.tramontina
+  password: testeinmetrics1
+last_id_user_api:
+  nome: joão
+  cpf: 021.346.190-08
+  id: 9179
