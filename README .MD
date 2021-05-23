@@ -2,7 +2,7 @@
 
 Imagina que você iniciou em uma equipe com um projeto do Zero.
 A proposta do projeto é a criação de uma solução para realizar compra de imóveis através de sistemas que facilitarão a comunicação de imobiliárias, clientes e bancos.
-A arquitetura está sendo desenhada a partir de solução de microsserviços, Websites, está sendo mapeado integrações com sistemas externos, espera-se volume alto de operação uma vez que o sistema irá operar em todo o território Brasileiro, o cliente está bem próximo do projeto para levantamento de requisitos.
+A arquitetura está sendo desenhada a partir de solução de microsserviços, Websites, está sendo mapeado integrações com sistemas externos, espera-se volume alto de operação uma vez que o sistema irá operar em todo o território Brasileiro, o cliente está bem próximo do projeto para levantamento de requisitos. x
 
 ## Questão 1: Dado esse cenário, como você iniciaria uma estratégia de teste?
 Resposta: Dado o cenário onde a solução se encontra em fase de aquitetura, é de suma importância, realizar uma analise precisa e clara em relação as integrações com sistemas tanto internos quanto externos para eliminar a possibilidade de erros e defeitos na aplicação quando estiver em ambiente de produção. Também deve ser analisada com pericia a funcionalidade a ser desenvolvida. Para isso é importante o QA participar de todas as reuniões relacionadas a levantamento de requisitos e arquiteturação da aplicação.
