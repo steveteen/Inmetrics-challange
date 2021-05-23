@@ -10,6 +10,6 @@ require "faker"
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
-  config.app_host = "http://www.inmrobo.tk"
-  $baseurl_api = "http://inm-api-test.herokuapp.com/"
+  config.app_host = "https://the-internet.herokuapp.com/dynamic_loading/"
+  $baseurl_api = "https://the-internet.herokuapp.com/dynamic_loading/"
 end
